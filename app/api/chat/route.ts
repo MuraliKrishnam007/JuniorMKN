@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
 
     // Make a request to the Together API
     const response = await client.chat.completions.create({
-      model: "deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free",
+      model: "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
       messages: preparedMessages,
     });
 
