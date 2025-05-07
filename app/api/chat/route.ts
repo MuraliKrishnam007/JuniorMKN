@@ -12,7 +12,7 @@ interface MessageParam {
  * Adjust based on platform limits (e.g., Netlify, Vercel) and expected API response times.
  * Should be slightly longer than API_CALL_TIMEOUT_MS.
  */
-export const maxDuration = 90; // Example: 60 seconds
+export const maxDuration = 60; // Example: 60 seconds
 
 // Ensure TOGETHER_API_KEY is set in your .env.local file
 const apiKey = process.env.TOGETHER_API_KEY;
